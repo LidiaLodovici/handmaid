@@ -1,0 +1,408 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    
+}
+
+h2 {
+    text-align: center;
+    font-weight: lighter;
+}
+
+h3{
+    
+    font-size: 20px;
+    
+}
+
+p{
+    font-size: 18px;
+}
+
+.intro h2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    
+}
+header{
+    background: url(img/handmaid.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 497px;
+    
+}
+nav{
+    background-color: goldenrod;
+    background-color: #b33939;
+    position: fixed;
+    width: 100%;
+    
+    
+}
+
+nav ul{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    text-align: right;
+    
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+nav li:hover{
+    background-color: #218c74;
+    border-radius: 2px;
+    
+}
+
+.toggle{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: right;
+    box-sizing: border-box;
+    font-size: 25px;
+    display: none;
+}
+/*
+.menu .registro{
+    border: solid #218c74 2px;
+    padding: 10px 15px;
+    border-radius: 5%;
+    background-color: #b33939;
+    color: #218c74;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.menu .registro:hover{
+    background-color: #b33939;
+    
+}*/
+
+img{
+    width: 100%;
+    height: 50%;
+}
+
+.resenha{
+    width: 100%;
+    padding: 100px;
+    margin-top: 150px;
+    
+    color: white;
+}
+
+.intro {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.intro p{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 18px;
+}
+
+.elenco{
+    height: auto;
+    background: #fff;
+    padding-top: 50px;
+}
+
+.elenco h2{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    margin: 20px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 200px;
+    grid-gap: 3px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    grid-template-areas: 
+    "elizabeth elizabeth joseph alexis"
+    "elizabeth elizabeth joseph yvonne"
+    "samira ann madeline max"
+    "fagbenle amanda tattiawna max"
+    
+    ;
+
+}
+
+.wrapper > div{
+    background-color: yellowgreen;
+}
+
+.wrapper > div:nth-child(even){
+    background-color: pink;
+}
+
+.elizabeth{
+    grid-area: elizabeth;
+    background-image: url(img/elizabeth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.elizabeth:hover{
+    opacity: 0.7;
+    transition: 0.9s;
+    
+    
+}
+
+.joseph{
+    grid-area: joseph;
+    background-image: url(img/joseph-dois.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.alexis{
+    grid-area: alexis;
+    background-image: url(img/alexis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.yvonne{
+    grid-area: yvonne;
+    background-image: url(img/yvonne.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.samira{
+    grid-area: samira;
+    background-image: url(img/samira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.ann{
+    grid-area: ann;
+    background-image: url(img/ann.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.madeline{
+    grid-area: madeline;
+    background-image: url(img/madeline.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.max{
+    grid-area: max;
+    background-image: url(img/max.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.fagbenle{
+    grid-area: fagbenle;
+    background-image: url(img/fagbenle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.amanda{
+    grid-area: amanda;
+    background-image: url(img/amanda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.tattiawna{
+    grid-area: tattiawna;
+    background-image: url(img/tattiawna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+
+.easter-egg{
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 40px;
+
+}
+
+.episode{
+    width: 80%;
+    margin: 0 auto;
+    display: flex
+}
+.easter-egg{
+
+    background: linear-gradient(132deg, #dfe4ea, #fff);
+}
+
+.episode, h3{
+    font-size: 20px;
+}
+
+.episode > div{
+    padding: 24px;
+    margin-top: 40px;
+    
+}
+
+.footer{
+    display: flex;
+    height: 35px;
+    background-color: #000;
+    color: white;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer h3{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: left;
+    
+  
+}
+
+.socia-media{
+    margin: 0;
+}
+
+.socia-media, li{
+    display: inline-block;
+    list-style-type : none;
+    padding: 4px;
+    
+    
+}
+
+.socio-media, img {
+    width: 35px;
+    height: 35px;
+}
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+
+@media screen and (max-width:768px){
+    nav{
+        background-color: rgba(85, 84, 84, 0.4);
+        position: inherit;
+    }
+    nav ul{
+        margin: 0;
+        text-align: center;
+        padding: 0;
+        width: 100%;
+        display: none;
+        
+    }
+    nav li{
+        display: block;
+        margin: 0;
+        border-bottom: lightgray 1px solid;
+        color: #fff;
+        font-weight: bolder;
+    }
+    nav .registro{
+        border: none;
+        background-color: rgba(121, 114, 114, 0.2);
+
+    }
+
+    .toggle{
+        display: block;
+    }
+    .active{
+        display: block;
+    }
+    .wrapper{
+        display: block;
+        width: 100%;
+    }
+
+    .wrapper > div{
+        width: 80%;
+        height: 257px;
+        margin-bottom: 15px;
+        margin: 0 auto 15px auto;
+    }
+
+    .episode{
+    display: block;
+    }
+
+    .episode > div{
+        padding: 0;
+        text-align: center;
+        background: none;
+        
+    }
+
+    .footer, h3{
+        display: block;
+        
+    }
+
+    .footer h3{
+        text-align: center;
+    }
+    .footer, ul{
+        padding-left: 0;
+        text-align: center;
+    }
+
+    
+}
